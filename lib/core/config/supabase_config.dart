@@ -11,13 +11,13 @@ class SupabaseConfig {
   /// Project URL from Supabase Project Settings -> API
   static const String supabaseUrl = String.fromEnvironment(
     'SUPABASE_URL',
-    defaultValue: 'https://YOUR_PROJECT_ID.supabase.co',
+    defaultValue: 'https://znkpckaovuqavaryjvdj.supabase.co',
   );
 
   /// Anon / Public Key from Supabase Project Settings -> API
   static const String supabaseAnonKey = String.fromEnvironment(
     'SUPABASE_ANON_KEY',
-    defaultValue: 'YOUR_SUPABASE_ANON_KEY',
+    defaultValue: 'sb_publishable_ue2SkDETaeUdIwNTxzzfXA_DxhY5eGz',
   );
 
   /// Storage bucket name for product images
